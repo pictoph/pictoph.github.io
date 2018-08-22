@@ -1,0 +1,139 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.editingImgPicto{
+  padding-top: 5px;
+  max-width: 60px;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.editWeProvide{
+  color: white;
+  font-size: 50px;
+  padding-top: 60px;
+    line-height: 0.5rem;
+}
+
+.editBusinessOpportunities{
+   color: white;
+  font-size: 50px;
+    line-height: 0.5rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+
+.editMastheadImg{
+  height: 100%;
+}
+
+.btn {
+    text-transform: none;
+    background-color: #01579b
+}
+
+.btn:hover {
+  background-color: #01579b
+}
+
+.editElementInMission{
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #83bb2e;
+}
+
+.editElementInVision{
+   font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #83bb2e;
+}
+
+.dot {
+  margin: 8px;
+  height: 8px;
+  width: 8px;
+  background-color: #01579b;
+  border-radius: 50%;
+  display: inline-block;
+}
+/*@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}*/
+
+
+.editOurHistory{
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #83bb2e;
+}
+
+.editOurWord{
+  font-weight: 20;
+   font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #01579b;
+}   
+
+
+
+h6 {
+    font-size: 1rem;
+    line-height: 170%;
+    margin: 0.7666666667rem 0 0.46rem 0;
+}
+.page-footer{
+  background-color:#272525; 
+}
+.footer-copyright{
+  background-color:#01579b !important; 
+}
+
+ .input-field input:focus + label {
+   color: #455a64 !important;
+ }
+
+ .input-field input:focus {
+   border-bottom: 1px solid #01579b !important;
+   box-shadow: 0 1px 0 0 #01579b !important
+ }
