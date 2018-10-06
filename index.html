@@ -23,27 +23,32 @@
 
 
 	<!-- navigation-->
+	<div class="navbar-fixed">
+		
+	<span id="home" class="scrollSpy"></span>
 	<nav class="white" role="navigation">
-		<div class="nav-wrapper container">
-				<a id="logo-container" href="#" class="brand-logo">
-					<div class="editingImgPicto">
-						<img class="responsive-img" src="img/picto.png">
-					</div>
-				</a>
-				<div class="right">
-					<ul class=" hide-on-med-and-down">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">History</a></li>
-						<li><a href="#">Services</a></li>
+			<div class="nav-wrapper container">
+					<a id="logo-container" href="#" class="brand-logo">
+						<div class="editingImgPicto">
+							<img class="responsive-img" src="img/picto.png">
+						</div>
+					</a>
+					<div class="right">
+						<ul class=" hide-on-med-and-down">
+							<li><a href="#home" data-position="bottom" data-tooltip="Home" class="tooltipped">Home</a></li>
+							<li><a href="#history" data-position="bottom" data-tooltip="Read Our History" class="tooltipped">History</a></li>
+							<li><a href="#section" data-position="bottom" data-tooltip="View Images" class="tooltipped">Section</a></li>
+							<li><a href="#services" data-position="bottom" data-tooltip="Mission/Vision" class="tooltipped">Services</a></li>
+							
+						</ul>
+					</div>	
+					<ul id="nav-mobile" class="sidenav">
+						<li><a href="#">Navbar Link</a></li>
 					</ul>
-				</div>	
-				<ul id="nav-mobile" class="sidenav">
-					<li><a href="#">Navbar Link</a></li>
-				</ul>
-				<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-		</div>
-	</nav>
-
+					<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+	</div>
 	<!-- image building blue -->
 	<div id="index-banner" class="parallax-container">
 	    <div class="section no-pad-bot">
@@ -67,9 +72,11 @@
   	<br>	
   	<br>
   	<br>
-	  <div class="container">
-	    <div class="section">
 
+	  <div class="container">
+	  	<span id="history" class="scrollSpy"></span>	
+	    <div class="section">
+	     
 	      <div class="row">
 	        <div class="col s12 m12 l12 center">
 	    		
@@ -89,9 +96,6 @@
 
 	       			</div>
 	       		</div>
-	         
-	         	
-		
 
 	        </div>
 	      </div>
@@ -104,17 +108,45 @@
 	    </div>
 	  </div>
 
+	<br> 
+  	<br>	
+  	<br>
+
+  	<div class="container">
+  		<div class="row">
+
+  			<div class="col l12 m12 s12 center">
+  				
+  				<div class="row">
+  					<div class="col l1">
+	    				<h4 class="left-align editOurHistory">Section</h4>
+	    			</div>	
+  				</div>
+  				<span id="section" class="scrollSpy"></span>
+  				<div class="carousel">
+				    <a class="carousel-item" href="#boardMeeting1"><img class="materialboxed" width="200"
+				    src="sectionimg/1.png"></a>
+				    <a class="carousel-item" href="#boardMeeting2"><img class="materialboxed" width="200" src="sectionimg/2.png"></a>
+				    <a class="carousel-item" href="#boardMeeting3"><img class="materialboxed" width="200" src="sectionimg/3.png"></a>
+				    <a class="carousel-item" href="#boardMeeting4"><img class="materialboxed" width="200" src="sectionimg/4.png"></a>
+				    <a class="carousel-item" href="#boardMeeting5"><img class="materialboxed" width="200" src="sectionimg/5.png"></a>
+  				</div>
+
+  			</div>
+  		</div>
+  	</div>
 
   	<br>
   	<br>	
   	<br>
-
+  	<br>
+  	<br>
   	<div id="index-banner" class="parallax-container">
 	    <div class="section no-pad-bot">
 	     	<br><br>
 	     <div class="container">
 	     	<br><br>		
-
+	     	<span id="services" class="scrollSpy"></span>	
 		     <div class="row">
 
 		     	<div class="col l6 m6 s6">
@@ -131,7 +163,7 @@
 		     	<div class="col l4 m4 s4">
 		     		<div class="">
 		     			<p  class="editElementInVision">Vision</p>
-		     			<h6 class="light">To make the Philippines globally competetive and an ICT leader in Asia</h6>
+		     			<h6 class="light">To make the Philippines globally competitive and an ICT Leader in Asia</h6>
 		     		</div>
 		     	</div>
 
@@ -225,6 +257,10 @@
   		</div>
   	</div>
 
+  
+
+
+
   	<br>
   	<br>
   	 <footer class="page-footer">
@@ -278,7 +314,7 @@
           </div>
         </footer>
 
-	 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>	
+	 <script src="js/jquery-2.1.1.min.js"></script>	
 	 <script src="js/materialize.js"></script>
  	 <script src="js/init.js"></script>
 	</body>
