@@ -25,15 +25,16 @@ nav .brand-logo {
 
 .editWeProvide{
   color: white;
-  font-size: 50px;
+  font-size: 42px;
   padding-top: 60px;
-    line-height: 0.5rem;
+  line-height: 0.5rem;
+
 }
 
 .editBusinessOpportunities{
-   color: white;
-  font-size: 50px;
-    line-height: 0.5rem;
+  color: white;
+  font-size: 55px;
+  line-height: 0.5rem;
 }
 
 .sidenav-trigger {
@@ -43,7 +44,14 @@ nav .brand-logo {
 
 .editMastheadImg{
   height: 100%;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
 }
+
 
 .btn {
     text-transform: none;
@@ -110,7 +118,7 @@ footer.page-footer {
 
 .editOurWord{
   font-weight: 20;
-   font-size: 50px;
+  font-size: 50px;
   font-family: 'Poppins', sans-serif;
   color: #01579b;
 }   
@@ -125,9 +133,9 @@ h6 {
 .page-footer{
   background-color:#272525; 
 }
-.footer-copyright{
+/*.footer-copyright{
   background-color:#01579b !important; 
-}
+}*/
 
  .input-field input:focus + label {
    color: #455a64 !important;
@@ -137,3 +145,14 @@ h6 {
    border-bottom: 1px solid #01579b !important;
    box-shadow: 0 1px 0 0 #01579b !important
  }
+
+
+.parallax-container{
+  z-index: -2;
+  background-color: #083dcc;
+}
+
+/*.carousel {
+  max-height: 600px;
+}*/
+
